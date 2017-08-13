@@ -1,13 +1,14 @@
 # Site
-title:              Moon
-paginate: 5
-bio:                'Minimal, one column jekyll theme.'
-description:        "Moon is a minimal, one column jekyll theme for your blog."
+title:              Federación Tinerfeña de Ajedrez
+
+description:        "adfadmal, one column jekyll theme for your blog."
+url:                https://gcpmendez.github.io/FTAjedrez
+
 reading_time:       true
 words_per_minute:   200
 
-url:                https://gcpmendez.github.io/FTAjedrez
 
+paginate: 5
 # Jekyll
 permalink:          /:title/
 markdown:           kramdown
