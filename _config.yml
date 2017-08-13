@@ -15,6 +15,7 @@ twitter_username: hemang_kumar
 github_username:  hemangsk
 paginate: 5
 
-gems: [jekyll-paginate, kramdown]
+plugins: [jekyll-paginate, kramdown]
 # Build settings
 markdown: kramdown
+
