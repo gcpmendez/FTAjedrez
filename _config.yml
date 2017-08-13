@@ -9,8 +9,8 @@
 title: Federación Tinerfeña de Ajedrez
 email: gcpmendez@gmail.com
 description: El ajedrez es una guerra sobre un tablero
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://gcpmendez.github.io/FTAjedrez/" # the base hostname & protocol for your site
+baseurl: "/FTAjedrez" # the subpath of your site, e.g. /blog
+url: "https://gcpmendez.github.io" # the base hostname & protocol for your site
 twitter_username: hemang_kumar
 github_username:  hemangsk
 paginate: 5
