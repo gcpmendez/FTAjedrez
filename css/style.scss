@@ -145,25 +145,56 @@ h1, h2, h3, h4, h5, h6 {
 /**
  * Links
  */
-a {
-    color: #aaa !important;
-    text-decoration: none;
 
-    &:visited {
-        color: darken($brand-color, 15%);
+
+a {
+    text-decoration: none;
+  
+    color: #666;display:inline-block; margin:0;text-transform:uppercase;
+
+   // &:visited {
+     //   color: darken($brand-color, 15%);
+    //}
+
+ 
+  //  &.page-link{
+  //    &:hover {
+  //        color: $text-color;
+  //        &:after {
+  //          transform: scaleX(1);
+  //        }
+  //    }
+  //  }
+  &.page-link{
+    text-decoration: none;
+    color: red;
+
+    padding-bottom: 5px;
+    color: #666;display:inline-block; margin:0;text-transform:uppercase;
+
+    &:after{
+      display:block;
+      content: '';
+      border-bottom: 1px solid blue;
+      transform: scaleX(0);  
+      transition: transform 250ms ease-in-out;
     }
+
+   // &:visited {
+     //   color: darken($brand-color, 15%);
+    //}
 
     &:hover {
-        color: black !important;
-        border-bottom: 1px dotted black ;
+      color: blue;
     }
 
-    &.page-link{
-      &:hover {
-          color: $text-color;
-          border-bottom: 1px dotted black ;
-      }
+    &:hover::after {
+      transform: scaleX(1);
     }
+
+  }
+
+
     &.postLink{
       color: black !important;
       &:hover {

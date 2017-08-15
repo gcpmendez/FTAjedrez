@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Download
+title: Contacto
 permalink: /download/
 
 tagline: "Loved it? Download Gravity"
