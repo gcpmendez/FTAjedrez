@@ -7,13 +7,18 @@
 </div>
 <div class="wrapper">
   <div class="trigger site-navigation">
-    <a class="page-link" href="{{site.url}}/">Noticias</a>
-
+    <ul style="margin: 0;
+    list-style-type: none;">
+    <li style="float:left;">
+      <a class="page-link" href="{{site.url}}/">Noticias</a>
+    </li>
     {% for sitePage in site.pages %}
     {% if sitePage.title %}
-
-    <a class="page-link" href="{{sitePage.url | prepend: site.baseurl }}">{{sitePage.title}}</a>
+    <li style="float:left;">
+      <a class="page-link" href="{{sitePage.url | prepend: site.baseurl }}">{{sitePage.title}}</a>
+    </li>
     {% endif %}
     {% endfor %}
+    </ul>
   </div>
 </div>

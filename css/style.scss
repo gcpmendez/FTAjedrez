@@ -145,7 +145,11 @@ h1, h2, h3, h4, h5, h6 {
 /**
  * Links
  */
-
+.site-navigation li:not(:last-child)::after {
+  content: "\00a0 \00a0 \00a0 \00b7 \00a0 \00a0 \00a0";
+  font-weight: bold;
+  color: black;
+}
 
 a {
     text-decoration: none;
@@ -180,11 +184,7 @@ a {
     transition: all .2s ease;
 
 
-    &:not(:last-child):after {
-      content: "\00a0 \00a0 \00a0 \00b7 \00a0 \00a0 \00a0";
-      font-weight: bold;
-      color: black;
-    }
+
    // &:visited {
      //   color: darken($brand-color, 15%);
     //}
