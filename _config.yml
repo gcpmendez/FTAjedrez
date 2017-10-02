@@ -2,8 +2,9 @@
 title:              Federación Tinerfeña de Ajedrez
 
 description:        "El ajedrez es una guerra sobre un tablero ~Bobby Fischer~"
-url:                https://gcpmendez.github.io
-baseurl:            /FTAjedrez
+url:                https://gcpmendez.github.io/FTAjedrez
+
+
 reading_time:       true
 words_per_minute:   200
 

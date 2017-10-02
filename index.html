@@ -13,12 +13,22 @@ layout: default
       {{post.tag}}
     </div>
     <br>
-    <div class="postTitle">
-    <a class='postLink' href="{{site.url}}{{site.baseurl}}{{post.url}}">{{post.title}}</a>
-    </div>
-    <div class="postExt">
-   {{ post.content | strip_html | truncate:200}}
-    </div>
+ 
+    <table class="postExt">
+        <tr>
+          <th style="width:20%"><img src="../images/arona.png" alt="Drawing" style="width: 100px; border:1; border-style: double; " /></th>
+          <th style="width:80%; text-align:left;">
+              <div class="postTitle" style="text-align:left;">
+                  <a class='postLink' href="{{site.url}}{{site.baseurl}}{{post.url}}">{{post.title}}</a>
+              </div>
+              <div class="postExt" style="font-family: 'Montserrat', sans-serif;font-size: 0.8em;">
+                  {{ post.content | strip_html | truncate:200}}
+              </div>
+          </th>
+        </tr>
+      </table>
+
+   
   </div>
 
   {% endfor %}

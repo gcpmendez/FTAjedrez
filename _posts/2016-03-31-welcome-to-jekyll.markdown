@@ -10,6 +10,8 @@ Esta semana la vamos a completar con la visita de otro fenomenal GM, Arthur Koga
 Sin olvidarnos que lunes, miércoles y viernes tenemos rondas del Open de Verano Fundación CajaCanarias.
 ¡¡Ajedrez a tope en verano!!
 
+
+![../images/arona.png](../images/arona.png)
 [jekyll-docs]: http://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll
 [jekyll-talk]: https://talk.jekyllrb.com/

@@ -196,16 +196,34 @@ a {
 
 
     &.postLink{
-      color: black !important;
-      &:hover {
-
-          border-bottom: 1px dotted black ;
+      text-decoration: none;
+      color: red;
+  
+      padding-bottom: 5px;
+      color: #666;display:inline-block; margin:0;text-transform:uppercase;
+  
+      &:after{
+        display:block;
+        content: '';
+        border-bottom: 1px solid black;
+        transform: scaleX(0);  
+        transition: transform 250ms ease-in-out;
       }
-
-      &:visited {
-          color: "crimson" !important;
+  
+     // &:visited {
+       //   color: darken($brand-color, 15%);
+      //}
+  
+      &:hover {
+        color: black;
+      }
+  
+      &:hover::after {
+        transform: scaleX(1);
       }
     }
+
+
     &.post-title-link{
       color: black !important;
       &:hover {
@@ -381,6 +399,7 @@ pre {
   font-weight: 300;
   letter-spacing: 2px;
   text-indent: 2px;
+  color: blue;
 }
 .postTag {
   float: right;
