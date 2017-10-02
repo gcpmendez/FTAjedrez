@@ -28,7 +28,13 @@ layout: default
               <div class="postTitle" style="text-align:left;">
                   <a class='postLink' href="{{site.url}}{{post.url}}">{{post.title}}</a>
               </div>
-              <div class="postExt" style="font-family: 'Montserrat', sans-serif;font-size: 0.8em;">
+              <div class="postExt" style="font-family: 'Josefin Sans';
+              display: inline;
+              text-decoration: none;
+              font-size: 1.1em;
+              color: #aaa;
+              font-weight: 300;
+              transition: all .2s ease;">
                   {{ post.content | strip_html | truncate:200}}
               </div>
           </th>

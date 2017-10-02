@@ -165,15 +165,26 @@ a {
   //        }
   //    }
   //  }
-  &.page-link{
-    text-decoration: none;
-    color: red;
 
-    padding-bottom: 5px;
-    color: #666;display:inline-block; margin:0;text-transform:uppercase;
+ 
+
+  header nav li:not(:last-child):after {
+    content: "\00a0 \00a0 \00a0 \00b7 \00a0 \00a0 \00a0 \00a0 ";
+    font-weight: bold;
+  }
+
+
+  &.page-link{
+    display: inline;
+    text-decoration: none;
+    line-height: 50px;
+    font-size: 1.2em;
+    color: #aaa;
+    font-weight: 300;
+    text-transform: capitalize;
+    transition: all .2s ease;
 
     &:after{
-      display:block;
       content: '';
       border-bottom: 1px solid blue;
       transform: scaleX(0);  
@@ -185,12 +196,9 @@ a {
     //}
 
     &:hover {
-      color: blue;
+      color: black;
     }
 
-    &:hover::after {
-      transform: scaleX(1);
-    }
 
   }
 
@@ -440,8 +448,8 @@ pre {
   font-family: 'Josefin Sans';
 }
 .exclamationMark {
-  padding-left: 2em;
-  padding-right: 2em;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 .site-navigation {
   color: #aaa;
