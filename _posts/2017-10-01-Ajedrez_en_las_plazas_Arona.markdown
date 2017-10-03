@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Long Longer and more Longer titles look cool too!!"
+title:  Ajedrez en las plazas - Arona
 date:   2016-03-30 19:45:31 +0530
 categories: science
 author: "Chandler Bing"
